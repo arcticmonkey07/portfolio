@@ -9,9 +9,10 @@
 
 .links__container {
   position: absolute;
-  top: 180px;
+  top: 50%;
   left: 200px;
   z-index: 11;
+  transform: translateY(-50%);
 
   @media (max-width: 1000px) {
     top: 100px;
