@@ -1,0 +1,22 @@
+.code {
+  background-image: url('./../img/code/code_bg.png');
+  background-size: cover;
+}
+
+.code__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px 20px 10px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 25px 0px black;
+  background-color: #fff;
+}
+
+.code__header {
+  margin-bottom: 0;
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+<span class="menu__icon">menu</span>
+<nav class="menu">
+  <ul class="menu__list">
+    <li>
+      <a href="index.html" class="menu__link">Home</a>
+    </li>
+    <li>
+      <a href="react.html" class="menu__link">React new projects</a>
+    </li>
+    <li>
+      <a href="projects-from-last-work.html" class="menu__link">Projects from last work</a>
+    </li>
+    <li>
+      <a href="portfolio.html" class="menu__link">Portfolio old</a>
+    </li>
+    <li>
+      <a href="about-me.html" class="menu__link">About me</a>
+    </li>
+    <li>
+      <a href="links.html" class="menu__link">Links</a>
+    </li>
+  </ul>
+</nav>
+<div class="menu__show"></div>
+@@if(menu_portfolio == "false") {
+<div class="menu__hide"></div>
+}
+@@if(menu_portfolio == "true") {
+<div class="menu__hide menu__hide--portfolio"></div>
+}

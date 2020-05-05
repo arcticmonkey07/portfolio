@@ -1,0 +1,31 @@
+.social-network {
+  width: 100%;
+  height: 100%;
+  background-image: url('./../img/social-network/social-network-bg.png');
+  background-size: cover;
+  filter: blur(5px);
+}
+
+.social-network__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 25px 0px black;
+  background-color: #fff;
+}
+
+.social-network__header {
+  margin-bottom: 10px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.social-network__text {
+  margin: 10px 0;
+  font-size: 20px;
+}

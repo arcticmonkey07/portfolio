@@ -1,0 +1,35 @@
+.vue-crm {
+  width: 100%;
+  height: 100%;
+  background-image: url('./../img/vue-crm/vue-crm-bg.png');
+  background-size: cover;
+  filter: blur(5px);
+}
+
+.vue-crm__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 25px 0px black;
+  background-color: #fff;
+}
+
+.vue-crm__header {
+  margin-bottom: 10px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.vue-crm__text {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.vue-crm__list {
+  margin-bottom: 20px;
+}
