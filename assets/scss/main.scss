@@ -6,6 +6,7 @@
 @import "fonts";
 @import "variables";
 @import "blocks/menu";
+@import "blocks/description";
 @import "blocks/candyshop";
 @import "blocks/bigshop";
 @import "blocks/link";
@@ -101,4 +102,10 @@ img {
 	width: 100%;
 	height: 100%;
 	background: linear-gradient(90deg, #e1fdbe, #f0ea31 37%, #f3f78d);
+}
+
+.guess-number-app {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, #82dd12, #f0ea31 37%, #f3f78d);
 }

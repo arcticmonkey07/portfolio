@@ -20,7 +20,7 @@
 	
 	<!-- CONFIG -->
 	<meta name="format-detection" content="telephone=no">
-	<title>Links</title>
+	<title>React-Native Apps</title>
 
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" href="/img/favicon.png"> 
@@ -29,8 +29,8 @@
 	<link rel="stylesheet" href="css/main.min.css">
 </head>
 <body >
-
-<span class="menu__icon">menu</span>
+  
+  <span class="menu__icon">menu</span>
 <nav class="menu">
   <ul class="menu__list">
     <li>
@@ -58,22 +58,29 @@
 </nav>
 <div class="menu__show"></div>
 
-<div class="menu__hide"></div>
 
+<div class="menu__hide menu__hide--portfolio"></div>
 
-
-  <section class="links content content--canvas">
-    <div class="links__container">
-      <h2 class="links__header">LINKS:</h2>
-      <p class="link__item">Email:</p><a class="links__link" href="mailto:arcticmonkey07@gmail.com" target="_blank">arcticmonkey07@gmail.com</a>
-      <p class="link__item">Telegram:</p><a class="links__link" href="https://t.me/arcticmonkey07" target="_blank">https://t.me/arcticmonkey07</a>
-      <p class="link__item">Github:</p><a class="links__link" href="https://github.com/arcticmonkey07" target="_blank">https://github.com/arcticmonkey07</a>
+  
+  <div id="fullpage">
+    <div class="section fp-auto-height-responsive" id="section0">
+      <div class="guess-number-app"></div>
+      <div class="description__container">
+        <h2 class="description__header">Guess Number App</h2>
+        <h4 class="description__text">Учебный проект по react-native.</h4>
+        <p>Приложение создано с помощью Expo.</p>
+        <p>Открыть его можно по QR-коду, скачав приложение Expo.</p>
+        <div class="link__wrapper">
+          <a href="https://expo.io/@arcticmonkey07/Guess-Number-App" target="_blank" class="link">Link</a>
+          <a href="https://github.com/arcticmonkey07/Guess-Number-App" target="_blank" class="link">GitHub</a>
+        </div>
+      </div>
     </div>
-  </section>
-
-  <script type="text/javascript" src="js/noise.min.js"></script>
-  <script type="text/javascript" src="js/util.js"></script>
-  <script type="text/javascript" src="js/swirl.js"></script>
+  </div>
+  
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/fullpage.min.js"></script>
   <script type="text/javascript" src="js/mouseover.js"></script>
-</body>
-</html>
+  <script type="text/javascript" src="js/script.js"></script>
+  </body>
+  </html>
