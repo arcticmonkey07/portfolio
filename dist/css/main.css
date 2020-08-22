@@ -614,7 +614,16 @@ template {
   font-size: 20px; }
 
 .description__list {
+  width: 600px;
+  margin-top: 5px;
   margin-bottom: 20px; }
+
+.description__content {
+  width: 600px;
+  margin: 5px 0; }
+
+.description__about {
+  text-align: center; }
 
 .candyshop {
   display: -ms-flexbox;
