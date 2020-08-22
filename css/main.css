@@ -610,7 +610,7 @@ template {
   text-align: center; }
 
 .description__text {
-  margin: 10px;
+  margin: 10px 10px 10px 0;
   font-size: 20px; }
 
 .description__list {
@@ -1581,3 +1581,8 @@ img {
   width: 100%;
   height: 100%;
   background: linear-gradient(90deg, #288677, #1d5d53 37%, #07241f); }
+
+.react-graphql {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #E535AB, #a13c80 37%, #aa5d90); }
