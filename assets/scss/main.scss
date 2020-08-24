@@ -65,6 +65,26 @@ img {
 
 // =====
 
+.portfolio-old {
+	background-image: linear-gradient(to right top, #f07d13, #f2783c, #ef7756, #e7796c, #da7e7e);
+}
+
+.proj-from-last {
+	background-image: linear-gradient(to right top, #4b552f, #6a7735, #8e9b38, #b6bf39, #e3e336);
+}
+
+.react-new-proj {
+	background-image: linear-gradient(to right top, #662766, #78316c, #8a3b72, #9b4677, #ac527d);
+}
+
+.react-native {
+	@media (max-width: 800px) {
+		background-image: radial-gradient(circle, #3b4b64, #215263, #1a5656, #2f5742, #4a5531);
+	}
+}
+
+// =====
+
 .omnilux {
 	width: 100%;
 	height: 100%;

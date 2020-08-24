@@ -3,13 +3,9 @@
 (function () {
   var myFullpage = new fullpage('#fullpage', {
     anchors: ['firstPage', 'secondPage', '3rdPage'],
-    sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C', '#C63D0F', '#1BBC9B', '#7E8F7C', '#C63D0F', '#C63D0F', '#1BBC9B'],
     navigation: true,
     navigationPosition: 'right',
-    navigationTooltips: ['Vue CRM', 'Wines', 'Social Network', 'CandyShop', 'HelyFly', 'Budboat', 'BigShop', 'Pink', 'Device', 'Nerds', 'Code & Magic', 'Trenager', 'Meetup', 'Corporate', 'Bologna', 'Eclipse', 'Sedona' ],
-    responsiveWidth: 900,
-    afterResponsive: function(isResponsive){
-    }
+    responsiveWidth: 800,
   });
 })();
 
@@ -31,3 +27,8 @@
     candyshopList.classList.remove('flipInY');
   });
 })();
+
+if (window.innerWidth < 800) {
+  const candyshopList = document.querySelector('.candyshop__container-list');
+  candyshopList.classList.remove('visually-hidden');
+}

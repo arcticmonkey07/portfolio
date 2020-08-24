@@ -2,6 +2,10 @@
   display: flex;
   font-family: "OpenSans", Arial, sans-serif;
   background-image: repeating-linear-gradient(45deg, #ffdd21 0px, #ffdd21 20px, #eed23c 20px, #eed23c 22px);
+
+  @media (max-width: 800px) {
+    background-image: none;
+  }
 }
 
 .candyshop:before {
@@ -13,6 +17,10 @@
   height: 173px;
   background-image: url('../img/candyshop/candyshop01.png');
   transform: rotate(90deg);
+
+  @media (max-width: 800px) {
+    display: none;
+  }
 }
 
 .candyshop:after {
@@ -23,6 +31,10 @@
   width: 351px;
   height: 131px;
   background-image: url('../img/candyshop/candyshop03.png');
+
+  @media (max-width: 800px) {
+    display: none;
+  }
 }
 
 .candyshop__bg:after {
@@ -33,12 +45,20 @@
   width: 388px;
   height: 262px;
   background-image: url('../img/candyshop/candyshop02.png');
+
+  @media (max-width: 800px) {
+    display: none;
+  }
 }
 
 .candyshop__container {
   position: relative;
   width: 600px;
   margin: auto;
+
+  @media (max-width: 800px) {
+    width: initial;
+  }
 }
 
 .candyshop__header {
@@ -46,7 +66,11 @@
   font-family: "Pacifico", sans-serif;
   font-weight: 500;
   font-size: 55px;
-  color: #6e58d9;
+  color: #000;
+
+  @media (max-width: 800px) {
+    display: none;
+  }
 }
 
 .candyshop__icon {
@@ -58,6 +82,10 @@
   background-image: url('../img/icons/plus.svg');
   cursor: pointer;
   transition: 0.5s;
+
+  @media (max-width: 800px) {
+    display: none;
+  }
 }
 
 .candyshop__icon:hover,
@@ -86,6 +114,10 @@
   height: 100px;
   background-image: url('../img/JavaScript.jpg');
   box-shadow: 0 0 15px 0px black;
+
+  @media (max-width: 800px) {
+    display: none;
+  }
 }
 
 .candyshop__container-list {

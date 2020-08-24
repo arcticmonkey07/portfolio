@@ -5,6 +5,10 @@
   left: 0;
   transition: .5s;
   background-color: #0b0812;
+
+  @media (max-width: 1000px) {
+    background-image: linear-gradient(to right top, #051937, #004963, #297d81, #76b094, #d0e0ac);
+  }
 }
 
 .links__container {
@@ -14,17 +18,11 @@
   z-index: 11;
   transform: translateY(-50%);
 
-  @media (max-width: 1000px) {
-    top: 100px;
-  }
-
   @media (max-width: 780px) {
-    top: 60px;
     left: 120px;
   }
 
   @media (max-width: 420px) {
-    top: 80px;
     left: 50px;
   }
 }

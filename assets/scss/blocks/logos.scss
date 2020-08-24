@@ -2,6 +2,10 @@
   display: flex;
   flex-grow: 1;
   margin-top: 10px;
+
+  @media (max-width: 420px) {
+    display: none;
+  }
 }
 
 .logos__logo {
@@ -11,6 +15,11 @@
   margin-right: 10px;
   background-repeat: no-repeat;
   background-position: center;
+
+  @media (max-width: 500px) {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 .logo__html5 {
