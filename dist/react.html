@@ -40,10 +40,13 @@
       <a href="react-native.html" class="menu__link">React Native Apps</a>
     </li>
     <li>
-      <a href="react.html" class="menu__link">React new projects</a>
+      <a href="react.html" class="menu__link">React projects</a>
     </li>
     <li>
       <a href="projects-from-last-work.html" class="menu__link">Projects from last work</a>
+    </li>
+    <li>
+      <a href="vue.html" class="menu__link">Vue projects</a>
     </li>
     <li>
       <a href="portfolio.html" class="menu__link">Portfolio old</a>
@@ -63,7 +66,49 @@
 
 
 <div class="react-new-proj" id="fullpage">
-  <div class="section fp-auto-height-responsive description--offset" id="section0">
+  <section class="section fp-auto-height-responsive description--offset" id="section0">
+    <div class="wines"></div>
+    <div class="description__container">
+      <h2 class="description__header">Wines</h2>
+      <h4 class="description__subheader">Самостоятельный проект показывающий изученные возможности React.</h4>
+      <ul class="description__list">
+        <li class="description__item">Загрузка вин с сервера (heroku*). Вывод порциями по 3 шт.</li>
+        <li class="description__item">Пагинация. Клик по вину выводит страницу этого вина.</li>
+        <li class="description__item">Реализован поиск.</li>
+        <li class="description__item">Добавление отзывов о вине.</li>
+        <li class="description__item">Добавление вина в избранные.</li>
+        <li class="description__item">*Сервер делал сам. Сделан на express, mongoose, nodemon. База данных: MongoDB.</li>
+      </ul>
+      <div class="link__wrapper">
+        <a href="https://arcticmonkey07.github.io/wines/" target="_blank" class="link">Link</a>
+        <a href="https://github.com/arcticmonkey07/wines" target="_blank" class="link">GitHub</a>
+      </div>
+    </div>
+  </section>
+  <section class="section fp-auto-height-responsive description--offset" id="section1">
+    <div class="social-network"></div>
+    <div class="description__container">
+      <h2 class="description__header">Social Network</h2>
+      <h4 class="description__subheader">Проект показывающий изученные возможности React.</h4>
+      <ul class="description__list">
+        <li class="description__item">Загрузка пользователей (Друзья) с сервера. Пагинация. Клик на пользователя выводит профиль (Моя страница).</li>
+        <li class="description__item">Добавление сообщения на страницах: Моя страница и Сообщения.</li>
+        <li class="description__item">Изменение статуса в профиле.</li>
+        <li class="description__item">Реализован Логин. Редирект.</li>
+        <li class="description__item">Counter на кнопке Лайк в Профиле.</li>
+      </ul>
+      <div class="test-account__container">
+        <p class="test-account__data">Данные тестового аккаунта:</p>
+        <p class="test-account__data">Email: <span class="test-account__data-text">free@samuraijs.com</span></p>
+        <p class="test-account__data">Password: <span class="test-account__data-text">free</span></p>
+      </div>
+      <div class="link__wrapper">
+        <a href="https://arcticmonkey07.github.io/social-network/" target="_blank" class="link">Link</a>
+        <a href="https://github.com/arcticmonkey07/social-network" target="_blank" class="link">GitHub</a>
+      </div>
+    </div>
+  </section>
+  <section class="section fp-auto-height-responsive description--offset" id="section2">
     <div class="react"></div>
     <div class="description__container">
       <h2 class="description__header">React Quiz</h2>
@@ -82,8 +127,8 @@
         <p class="test-account__data">Password: <span class="test-account__data-text">123456</span></p>
       </div>
     </div>
-  </div>
-  <div class="section fp-auto-height-responsive description--offset" id="section1">
+  </section>
+  <section class="section fp-auto-height-responsive description--offset" id="section3">
     <div class="react-alarm"></div>
     <div class="description__container">
       <h2 class="description__header">React Alarm Clock</h2>
@@ -102,8 +147,8 @@
         <a href="https://github.com/arcticmonkey07/react-alarm-clock" target="_blank" class="link">GitHub</a>
       </div>
     </div>
-  </div>
-  <div class="section fp-auto-height-responsive description--offset" id="section2">
+  </section>
+  <section class="section fp-auto-height-responsive description--offset" id="section4">
     <div class="react-graphql"></div>
     <div class="description__container">
       <h2 class="description__header">React & GraphQL</h2>
@@ -123,7 +168,7 @@
         <a href="https://github.com/arcticmonkey07/graphql" target="_blank" class="link">GitHub</a>
       </div>
     </div>
-  </div>
+  </section>
 </div>
 
 <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
