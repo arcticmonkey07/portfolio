@@ -8,11 +8,11 @@
     properties = {
         bgColor             : 'rgba(17, 17, 19, 1)',
         particleColor       : '#efd916',
-        particleRadius      : 3,
-        particleCount       : 60,
-        particleMaxVelocity : 0.5,
-        lineLength          : 150,
-        particleLife        : 6,
+        particleRadius      : 2,
+        particleCount       : 55,
+        particleMaxVelocity : 0.2,
+        lineLength          : 200,
+        particleLife        : 20,
     };
 
     document.querySelector('body').appendChild(canvas);
