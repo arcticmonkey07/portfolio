@@ -1091,11 +1091,13 @@ template {
   top: 0;
   left: 0;
   width: 100%;
+  height: 100%;
   padding-top: 50px;
   padding-left: 200px;
   padding-bottom: 50px;
   transition: .5s;
-  background-image: linear-gradient(to left bottom, #142134, #003040, #003e3f, #1d4a34, #465329); }
+  background-image: linear-gradient(to left bottom, #142134, #003040, #003e3f, #1d4a34, #465329);
+  box-sizing: border-box; }
   @media (max-width: 1000px) {
     .about-me {
       padding-top: 30px;
