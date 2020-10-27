@@ -1,0 +1,62 @@
+@@include('template/head.html', {
+  "pagetitle": "React-Native Apps",
+  "bodyclass": ""
+  })
+  
+  @@include('template/menu.html', {
+  "menu_portfolio": "true"
+  })
+  
+  <div class="react-native" id="fullpage">
+    <section class="section fp-auto-height-responsive description--offset" id="section0">
+      <div class="js-constructor"></div>
+      <div class="description__container">
+        <h2 class="description__header">JS Constructor</h2>
+        <h4 class="description__subheader">Учебный проект по чистому JavaScript.</h4>
+        <p class="description__about">Описание</p>
+        <p class="description__text">Упрощенный конструктор сайтов</p>
+        <p class="description__text">При написании использованы принципы SOLID и ООП.</p>
+        <p class="description__text">Возможности:</p>
+        <ul class="description__list">
+          <li class="description__item">Добавление html блоков со стилями: Заголовок, текст, картинка и колонки с текстом.</li>
+        </ul>
+        <div class="link__wrapper">
+          <a href="https://arcticmonkey07.github.io/js-constructor/" target="_blank" class="link">Link</a>
+          <a href="https://github.com/arcticmonkey07/js-constructor" target="_blank" class="link">GitHub</a>
+        </div>
+      </div>
+    </section>
+    <section class="section candyshop fp-auto-height-responsive description--offset" id="section1">
+      <div class="candyshop__container">
+        <h2 class="candyshop__header">Candy-shop</h2>
+        <span class="candyshop__js-icon"></span>
+        <div class="candyshop__container-list visually-hidden">
+          <ul class="candyshop__list">
+            <h4>Candyshop. Проект показывающий изученные возможности JavaScript'a.</h4>
+            <li>Загрузка товаров происходит с сервера с помощью AJAX.</li>
+            <li>Каждая карточка отрисовывается по шаблону.</li>
+            <li>Реализована фильтрация и сортировка товара.</li>
+            <li>В фильтрации цены реализованы слайдеры.</li>
+            <li>Можно отметить избранные товары, посмотреть состав товара, добавить в корзину.</li>
+            <li>Сверху отображается кол-во товаров в корзине.</li>
+            <li>Изменение товара в корзине по кол-ву, удаление из корзины.</li>
+            <li>Оформление заказа: валидация номера карты происходит по алгоритму Луна.</li>
+            <li>Проверка остальных полей карты реализована с помощью регулярных выражений.</li>
+            <li>Выбор доставки.</li>
+            <li>Отправка формы на сервер с помощью AJAX-запроса.</li>
+          </ul>
+          <a href="https://arcticmonkey07.github.io/candyshop/" target="_blank" class="link">Link</a>
+        </div>
+        <span class="candyshop__icon"></span>
+        <span class="candyshop__icon-close visually-hidden"></span>
+      </div>
+      <div class="candyshop__bg"></div>
+    </section>
+  </div>
+  
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/fullpage.min.js"></script>
+  <script type="text/javascript" src="js/mouseover.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  </body>
+  </html>
