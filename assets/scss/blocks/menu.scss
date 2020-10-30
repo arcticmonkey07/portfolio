@@ -122,3 +122,43 @@
 .menu__hide--portfolio {
   width: 100px;
 }
+
+.menu__prompt {
+  position: absolute;
+  bottom: 150px;
+  left: 50px;
+  font-size: 18px;
+  color: #fff;
+  opacity: 1;
+  animation: pump 0.7s ease-in-out infinite;
+
+  @media (max-width: 780px) {
+    display: none;
+  }
+}
+
+@keyframes pump {
+  0% {transform: translateX(0px);}
+  50% {transform: translateX(10px);}
+  100% {transform: translateX(0px);}
+}
+
+.menu__prompt-hide {
+  position: absolute;
+  opacity: 0;
+  animation: fadeOut 0.5s ease-out;
+}
+
+@keyframes fadeOut {
+  0% {opacity: 1; left: 50px;}
+  100% {opacity: 0; left: 400px;}
+}
+
+.menu__prompt-show {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0; left: 400px;}
+  100% {opacity: 1; left: 50px;}
+}
