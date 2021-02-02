@@ -7,11 +7,11 @@
     "gulp": "gulp",
     "deploy": "gh-pages -d dist"
   },
-  "author": "Petro Lyshak",
+  "author": "Petr Vasyukovich",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/PeterLyshak/StartScssGulp.git"
+    "url": "git://github.com/arcticmonkey07/portfolio"
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",
