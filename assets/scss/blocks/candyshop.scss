@@ -1,0 +1,166 @@
+.candyshop {
+  display: flex;
+  font-family: "OpenSans", Arial, sans-serif;
+  background-image: repeating-linear-gradient(45deg, #ffdd21 0px, #ffdd21 20px, #eed23c 20px, #eed23c 22px);
+
+  @media (max-width: 800px) {
+    background-image: none;
+  }
+}
+
+.candyshop:before {
+  content: '';
+  position: absolute;
+  top: 100px;
+  left: -40px;
+  width: 245px;
+  height: 173px;
+  background-image: url('../img/candyshop/candyshop01.png');
+  transform: rotate(90deg);
+
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+
+.candyshop:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+  width: 351px;
+  height: 131px;
+  background-image: url('../img/candyshop/candyshop03.png');
+
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+
+.candyshop__bg:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+  width: 388px;
+  height: 262px;
+  background-image: url('../img/candyshop/candyshop02.png');
+
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+
+.candyshop__container {
+  position: relative;
+  width: 600px;
+  margin: auto;
+
+  @media (max-width: 800px) {
+    width: initial;
+  }
+}
+
+.candyshop__header {
+  padding-left: 20px;
+  font-family: "Pacifico", sans-serif;
+  font-weight: 500;
+  font-size: 55px;
+  color: #000;
+
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+
+.candyshop__icon {
+  position: absolute;
+  top: 150px;
+  right: 50%;
+  width: 50px;
+  height: 50px;
+  background-image: url('../img/icons/plus.svg');
+  cursor: pointer;
+  transition: 0.5s;
+
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+
+.candyshop__icon:hover,
+.candyshop__icon-close:hover {
+  transform: scale(1.2);
+  transition: 0.7s;
+}
+
+.candyshop__icon-close {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-image: url('../img/icons/cancel.svg');
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.candyshop__js-icon {
+  position: absolute;
+  top: -50px;
+  right: 120px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url('../img/JavaScript.jpg');
+  box-shadow: 0 0 15px 0px black;
+
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+
+.candyshop__container-list {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0px 20px 0px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 5px 5px 25px 0px black;
+}
+
+.flipInY {
+  animation-name: flipInY;
+  animation-duration: 1s;
+}
+
+@keyframes flipInY {
+  0% {
+    -webkit-transform: perspective(400px) rotateY(90deg);
+    transform: perspective(400px) rotateY(90deg);
+    opacity: 0
+  }
+  0%,
+  40% {
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in
+  }
+  40% {
+    -webkit-transform: perspective(400px) rotateY(-20deg);
+    transform: perspective(400px) rotateY(-20deg)
+  }
+  60% {
+    -webkit-transform: perspective(400px) rotateY(10deg);
+    transform: perspective(400px) rotateY(10deg);
+    opacity: 1
+  }
+  80% {
+    -webkit-transform: perspective(400px) rotateY(-5deg);
+    transform: perspective(400px) rotateY(-5deg)
+  }
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px)
+  }
+}

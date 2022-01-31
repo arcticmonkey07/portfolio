@@ -1,0 +1,8 @@
+.sedona {
+  background-image: url('./../img/sedona/sedona_bg.jpg');
+  background-size: cover;
+
+  @media (max-width: 800px) {
+    background-image: none;
+  }
+}

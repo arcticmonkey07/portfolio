@@ -1,0 +1,13 @@
+.social-network {
+  width: 100%;
+  height: 100%;
+  background-image: url('./../img/social-network/social-network-bg.png');
+  background-size: cover;
+  filter: blur(5px);
+
+  @media (max-width: 800px) {
+    width: initial;
+    height: initial;
+    background-image: none;
+  }
+}

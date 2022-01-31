@@ -1,0 +1,8 @@
+.code {
+  background-image: url('./../img/code/code_bg.png');
+  background-size: cover;
+
+  @media (max-width: 800px) {
+    background-image: none;
+  }
+}

@@ -1,0 +1,82 @@
+.description--offset {
+  @media (max-width: 800px) {
+    padding: 20px 40px;
+  }
+}
+
+.description__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 25px 0px black;
+  background-color: #fff;
+
+  @media (max-width: 800px) {
+    position: relative;
+    top: initial;
+    left: initial;
+    padding: 10px;
+    transform: initial;
+  }
+}
+
+.description__header {
+  margin-bottom: 10px;
+  font-size: 25px;
+  text-align: center;
+
+  @media (max-width: 800px) {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+}
+
+.description__subheader {
+  margin: 10px 10px 10px 0;
+  font-size: 20px;
+
+  @media (max-width: 800px) {
+    margin: 0 0 5px 0;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+.description__text {
+  width: 600px;
+  margin: 5px 0;
+
+  @media (max-width: 800px) {
+    width: initial;
+    font-size: 13px;
+  }
+}
+
+.description__list {
+  width: 600px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+
+  @media (max-width: 800px) {
+    width: initial;
+    margin: 0;
+    padding-left: 24px;
+    font-size: 13px;
+  }
+}
+
+.description__about {
+  text-align: center;
+}
+
+.description__link {
+  margin-bottom: 20px;
+  color: #000;
+}

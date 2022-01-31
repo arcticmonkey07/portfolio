@@ -1,0 +1,9 @@
+.bologna {
+  background-image: url('./../img/bologna/bologna_bg.jpg');
+  background-size: cover;
+  background-position: center;
+
+  @media (max-width: 800px) {
+    background-image: none;
+  }
+}

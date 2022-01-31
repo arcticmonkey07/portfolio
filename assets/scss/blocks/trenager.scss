@@ -1,0 +1,11 @@
+.trenager {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/trenager/trenager_bg.jpg');
+  background-size: cover;
+  filter: blur(10px);
+
+  @media (max-width: 800px) {
+    background-image: none;
+  }
+}

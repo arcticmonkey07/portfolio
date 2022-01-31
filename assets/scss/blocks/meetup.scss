@@ -1,0 +1,8 @@
+.meetup {
+  background-image: url('./../img/meetup/meetup_bg.png');
+  background-size: cover;
+
+  @media (max-width: 800px) {
+    background-image: none;
+  }
+}

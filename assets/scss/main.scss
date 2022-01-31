@@ -1,0 +1,179 @@
+// PLUGINS STYLE
+@import "plugins/fullpage";
+
+// BLOCKS STYLE
+@import "normalize";
+@import "fonts";
+@import "variables";
+@import "blocks/index";
+@import "blocks/menu";
+@import "blocks/description";
+@import "blocks/candyshop";
+@import "blocks/bigshop";
+@import "blocks/link";
+@import "blocks/budboat";
+@import "blocks/logos";
+@import "blocks/pink";
+@import "blocks/device";
+@import "blocks/nerds";
+@import "blocks/code";
+@import "blocks/trenager";
+@import "blocks/meetup";
+@import "blocks/corporate";
+@import "blocks/bologna";
+@import "blocks/eclipse";
+@import "blocks/sedona";
+@import "blocks/about-me";
+@import "blocks/name";
+@import "blocks/links";
+@import "blocks/wines";
+@import "blocks/social-network";
+@import "blocks/vue-crm";
+@import "blocks/test-account";
+@import "blocks/helyfly";
+
+body {
+	font-size: 15px;
+	line-height: 24px;
+	font-family: "Open Sans", "Arial", sans-serif;
+	font-weight: 300;
+	background-color: #000000;
+	overflow-x: hidden;
+}
+
+body.index {
+	overflow-y: hidden;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+// =====
+
+.portfolio-old {
+	background-image: linear-gradient(to right top, #f07d13, #f2783c, #ef7756, #e7796c, #da7e7e);
+}
+
+.proj-from-last {
+	background-image: linear-gradient(to right top, #4b552f, #6a7735, #8e9b38, #b6bf39, #e3e336);
+}
+
+.react-new-proj {
+	// background-image: linear-gradient(to right top, #662766, #78316c, #8a3b72, #9b4677, #ac527d);
+}
+
+.react-native {
+	@media (max-width: 800px) {
+		background-image: radial-gradient(circle, #3b4b64, #215263, #1a5656, #2f5742, #4a5531);
+	}
+}
+
+// =====
+
+.omnilux {
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/omnilux/omnilux_bg.jpg);
+	background-size: cover;
+	-webkit-filter: blur(5px);
+	filter: blur(5px)
+}
+
+.mobius {
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/mobius/mobius_bg.png);
+	background-size: cover;
+	-webkit-filter: blur(5px);
+	filter: blur(5px)
+}
+
+.justpunkit {
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/justpunkit/justpunkit_bg.png);
+	background-size: cover;
+	-webkit-filter: blur(5px);
+	filter: blur(5px)
+}
+
+.react {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg,#fd8355,#f0576c 37%,#f79cbd);
+}
+
+.react-alarm {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, #e1fdbe, #f0ea31 37%, #f3f78d);
+}
+
+.guess-number-app {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, #82dd12, #f0ea31 37%, #f3f78d);
+}
+
+.the-meals-app {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, #288677, #1d5d53 37%, #07241f);
+}
+
+.react-graphql {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, #E535AB, #a13c80 37%, #aa5d90);
+}
+
+.pepelane {
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/pepelane/pepelane.png);
+	background-size: cover;
+	-webkit-filter: blur(5px);
+	filter: blur(5px)
+}
+
+.the-great-places-app {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, #f3f1d2, #ebde6a 37%, #645b04);
+}
+
+.js-constructor {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, #b18992, #f59bae 37%, #f37e98);
+}
+
+.react-pepelane {
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to right top, #000000, #221414, #3c201a, #53301b, #644519, #735a21, #80702b, #8b8738, #a2a14f, #babb68, #d2d680, #eaf29a);
+}
+
+.crypto-watcher {
+	width: 100%;
+  height: 100%;
+  background-image: url('./../img/crypto-watcher/crypto-watcher.png');
+  background-size: cover;
+  filter: blur(5px);
+}

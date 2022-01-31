@@ -1,0 +1,8 @@
+.corporate {
+  background-image: url('./../img/corporate/corporate_bg.jpg');
+  background-size: cover;
+
+  @media (max-width: 800px) {
+    background-image: none;
+  }
+}

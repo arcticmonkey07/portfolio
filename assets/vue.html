@@ -1,0 +1,64 @@
+@@include('template/head.html', {
+  "pagetitle": "Portfolio old",
+  "bodyclass": ""
+  })
+  
+  @@include('template/menu.html', {
+  "menu_portfolio": "true"
+  })
+  
+  <div class="portfolio-old" id="fullpage">
+    <section class="section fp-auto-height-responsive description--offset" id="section0">
+      <div class="crypto-watcher"></div>
+      <div class="description__container">
+        <h2 class="description__header">Crypto Watcher</h2>
+        <h4 class="description__subheader">Самостоятельный проект на Vue.</h4>
+        <ul class="description__list">
+          <li class="description__item">Загрузка курса криптовалют с API.</li>
+          <li class="description__item">Добавление удаление криптовалют.</li>
+          <li class="description__item">Вывод курса разной криптовалюты.</li>
+          <li class="description__item">Вывод изменения курса в графике.</li>
+          <li class="description__item">Фильтрация криптовалют.</li>
+          <li class="description__item">Пагинация страниц если добавлено много криптовалют.</li>
+          <li class="description__item">Сохранение добавленных криптовалют в localStorage.</li>
+        </ul>
+        <div class="link__wrapper">
+          <a href="https://crypto-watcher-979b1.web.app/" target="_blank" class="link">Link</a>
+          <a href="https://github.com/arcticmonkey07/crypto-watcher" target="_blank" class="link">GitHub</a>
+        </div>
+      </div>
+    </section>
+    <section class="section fp-auto-height-responsive description--offset" id="section1">
+      <div class="vue-crm"></div>
+      <div class="description__container">
+        <h2 class="description__header">Vue CRM</h2>
+        <h4 class="description__subheader">Проект показывающий изученные возможности Vue.</h4>
+        <ul class="description__list">
+          <li class="description__item">Загрузка курса валют с API.</li>
+          <li class="description__item">Вывод счёта в разной валюте.</li>
+          <li class="description__item">Запись и редактирование категорий, записей расходов(доходов).</li>
+          <li class="description__item">Вывод истории записей: график + таблица.</li>
+          <li class="description__item">Вывод progress-bar по категориям расходов.</li>
+          <li class="description__item">Регистрация и логин через сервер Firebase.</li>
+          <li class="description__item">Изменение языка приложения в профиле.</li>
+          <li class="description__item">База данных: Firebase.</li>
+        </ul>
+        <div class="link__wrapper">
+          <a href="https://vue-crm-d4731.firebaseapp.com/" target="_blank" class="link">Link</a>
+          <a href="https://github.com/arcticmonkey07/vue-crm" target="_blank" class="link">GitHub</a>
+        </div>
+        <div class="test-account__container">
+          <p class="test-account__data">Данные тестового аккаунта:</p>
+          <p class="test-account__data">Email: <span class="test-account__data-text">r@mail.ru</span></p>
+          <p class="test-account__data">Password: <span class="test-account__data-text">123456</span></p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/fullpage.min.js"></script>
+<script type="text/javascript" src="js/mouseover.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

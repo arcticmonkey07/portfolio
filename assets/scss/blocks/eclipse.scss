@@ -1,0 +1,8 @@
+.eclipse {
+  background-image: url('./../img/eclipse/eclipse_bg.jpg');
+  background-size: cover;
+
+  @media (max-width: 800px) {
+    background-image: none;
+  }
+}

@@ -1,0 +1,45 @@
+.logos {
+  display: flex;
+  flex-grow: 1;
+  margin-top: 10px;
+
+  @media (max-width: 420px) {
+    display: none;
+  }
+}
+
+.logos__logo {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media (max-width: 500px) {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.logo__html5 {
+  background-image: url('./../img/logos/html5.svg');
+}
+
+.logo__css3 {
+  background-image: url('./../img/logos/css3.svg');
+}
+
+.logo__sass{
+  background-image: url('./../img/logos/sass.svg');
+  background-position: 5px 5px;
+}
+
+.logo__gulp {
+  background-image: url('./../img/logos/gulp.svg');
+}
+
+.logo__webpack {
+  background-image: url('./../img/logos/webpack.png');
+  background-size: cover;
+}

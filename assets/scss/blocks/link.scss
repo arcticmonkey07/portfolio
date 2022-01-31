@@ -1,0 +1,51 @@
+.link__wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  display: inline-block;
+  margin: auto;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid transparent;
+}
+
+.link:hover {
+  animation: border 1s linear forwards;
+}
+
+.link:active {
+  background-color: #000;
+  color: #fff;
+}
+
+@keyframes border {
+  25%{
+    border-top-color: #000;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  50%{
+    border-top-color: #000;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: #000;
+  }
+  75%{
+    border-top-color: #000;
+    border-bottom-color: #000;
+    border-left-color: transparent;
+    border-right-color: #000;
+  }
+  100%{
+    border-top-color: #000;
+    border-bottom-color: #000;
+    border-left-color: #000;
+    border-right-color: #000;
+  }
+}

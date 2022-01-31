@@ -1,0 +1,40 @@
+@@include('template/head.html', {
+  "pagetitle": "Nuxt Apps",
+  "bodyclass": ""
+  })
+  
+  @@include('template/menu.html', {
+  "menu_portfolio": "true"
+  })
+  
+  <div class="react-native" id="fullpage">
+    <div class="section fp-auto-height-responsive description--offset" id="section0">
+      <div class="pepelane"></div>
+      <div class="description__container">
+        <h2 class="description__header">Pepelane</h2>
+        <h4 class="description__subheader">Самостоятельный проект по nuxt js.</h4>
+        <p class="description__text">Сайт аренды летательных средств.</p>
+        <p class="description__text">Возможности:</p>
+        <ul class="description__list">
+          <li class="description__item">Загрузка итемов из json файла. Имитация загрузки с API.</li>
+          <li class="description__item">Фильтрация.</li>
+          <li class="description__item">Форма добавления нового транспортного средства.</li>
+          <li class="description__item">Резиновая верстка, мобильная версия.</li>
+          <li class="description__item">Темный режим.</li>
+          <li class="description__item">Детальная страница итама с табами.</li>
+          <li class="description__item">Стили написаны с помощью css-modules.</li>
+        </ul>
+        <div class="link__wrapper">
+          <a href="https://defective-secretary.surge.sh" target="_blank" class="link">Link</a>
+          <a href="https://github.com/arcticmonkey07/pepelane" target="_blank" class="link">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/fullpage.min.js"></script>
+  <script type="text/javascript" src="js/mouseover.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  </body>
+  </html>

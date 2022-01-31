@@ -1,0 +1,11 @@
+.nerds {
+  width: 100%;
+  height: 100%;
+  background-image: url('./../img/nerds/nerds_bg.png');
+  background-size: cover;
+  filter: blur(5px);
+
+  @media (max-width: 800px) {
+    background-image: none;
+  }
+}

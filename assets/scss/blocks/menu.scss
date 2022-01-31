@@ -1,0 +1,164 @@
+.menu__icon {
+  display: block;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 11;
+  width: 50px;
+  height: 50px;
+  font-family: 'Consolas', 'Arial', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  text-transform: uppercase;
+  background: #000;
+  cursor: pointer;
+
+  @media (max-width: 800px) {
+    left: 30px;
+  }
+
+  @media (max-width: 620px) {
+    width: 40px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 32px;
+    border-radius: 5px;
+  }
+}
+
+.menu__icon:hover {
+  color: #efd916;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  margin: 0;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  width: 300px;
+  height: 100vh;
+  background: #000;
+  transition: .5s;
+  z-index: 10;
+  overflow-y: auto;
+  list-style: none;
+
+  @media (max-width: 420px) {
+    left: -420px;
+    width: 420px;
+  }
+}
+
+.menu__showed {
+  left: 0;
+}
+
+.menu__showed ~ .name {
+  left: 300px;
+}
+
+.menu__showed ~ .name__header {
+  left: 55%;
+
+  @media (max-width: 780px) {
+    left: 65%;
+  }
+}
+
+.menu__showed ~ .links {
+  left: 300px;
+
+  @media (max-width: 420px) {
+    left: 420px;
+  }
+}
+
+.menu__showed ~ .about-me {
+  left: 300px;
+}
+
+.menu__list {
+  @media (max-width: 800px) {
+    padding-left: 20px;
+  }
+}
+
+.menu__link {
+  display: block;
+  color: #ffffff;
+  padding: 10px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Consolas', 'Arial', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  transition: .5s;
+}
+
+.menu__link:hover {
+  transform: translateX(10px);
+  color: #efd916;
+}
+
+.menu__show {
+  position: absolute;
+  z-index: 10;
+  width: 20px;
+  height: 100%;
+}
+
+.menu__hide {
+  position: absolute;
+  left: 300px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+}
+
+.menu__hide--portfolio {
+  width: 100px;
+}
+
+.menu__prompt {
+  position: absolute;
+  bottom: 150px;
+  left: 50px;
+  font-size: 18px;
+  color: #fff;
+  opacity: 1;
+  animation: pump 0.7s ease-in-out infinite;
+
+  @media (max-width: 780px) {
+    display: none;
+  }
+}
+
+@keyframes pump {
+  0% {transform: translateX(0px);}
+  50% {transform: translateX(10px);}
+  100% {transform: translateX(0px);}
+}
+
+.menu__prompt-hide {
+  position: absolute;
+  opacity: 0;
+  animation: fadeOut 0.5s ease-out;
+}
+
+@keyframes fadeOut {
+  0% {opacity: 1; left: 50px;}
+  100% {opacity: 0; left: 400px;}
+}
+
+.menu__prompt-show {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0; left: 400px;}
+  100% {opacity: 1; left: 50px;}
+}

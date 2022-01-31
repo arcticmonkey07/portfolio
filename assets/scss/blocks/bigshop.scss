@@ -1,0 +1,11 @@
+.bigshop {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/bigshop/bigshop_bg.png');
+  background-size: cover;
+  filter: blur(10px);
+
+  @media (max-width: 800px) {
+    background-image: none;
+  }
+}

@@ -1,0 +1,152 @@
+@@include('template/head.html', {
+"pagetitle": "React new projects",
+"bodyclass": ""
+})
+
+@@include('template/menu.html', {
+"menu_portfolio": "true"
+})
+
+<div class="react-new-proj" id="fullpage">
+  <section class="section fp-auto-height-responsive description--offset" id="section0">
+    <div class="react-pepelane"></div>
+    <div class="description__container">
+      <h2 class="description__header">Pepelane</h2>
+      <h4 class="description__subheader">Самостоятельный проект по React и TypeScript.</h4>
+      <p class="description__text">Сайт аренды летательных средств.</p>
+      <p class="description__text">Возможности:</p>
+      <ul class="description__list">
+        <li class="description__item">Стили написаны с помощью css-modules.</li>
+        <li class="description__item">Загрузка итемов из json файла. Имитация загрузки с API.</li>
+        <li class="description__item">Фильтрация.</li>
+        <li class="description__item">Фильтрация.</li>
+        <li class="description__item">
+          Прогноз погоды:
+          <ul class="description__list">
+            <li class="description__item">UI написан с помощью Ant Design.</li>
+            <li class="description__item">Получение данных с openweathermap.org.</li>
+            <li class="description__item">Запрашивает геолокацию пользователя и автоматически добавлять его город.</li>
+            <li class="description__item">Добавление/удаление городов.</li>
+            <li class="description__item">Выводит погоду по добавленным городам на ближайшую неделю.</li>
+            <li class="description__item">Кеширование данных в localStorage.</li>
+          </ul>
+        </li>
+        <li class="description__item">Темный режим.</li>
+      </ul>
+      <div class="link__wrapper">
+        <a href="http://unsightly-mind.surge.sh/" target="_blank" class="link">Link</a>
+        <a href="https://github.com/arcticmonkey07/pepelane-react" target="_blank" class="link">GitHub</a>
+      </div>
+    </div>
+  </section>
+  <section class="section fp-auto-height-responsive description--offset" id="section1">
+    <div class="react-alarm"></div>
+    <div class="description__container">
+      <h2 class="description__header">React Alarm Clock</h2>
+      <h4 class="description__subheader">Самостоятельный проект по react.</h4>
+      <p class="description__text">Будильник.</p>
+      <p class="description__text">Возможности:</p>
+        <ul class="description__list">
+          <li class="description__item">Возможность добавить будильник.</li>
+          <li class="description__item">Возможность удалить будильник.</li>
+          <li class="description__item">Возможность выбрать дни недели.</li>
+          <li class="description__item">Возможность включать и выключать сразу все будильники.</li>
+          <li class="description__item">Возможность редактировать будильник.</li>
+        </ul>
+      <div class="link__wrapper">
+        <a href="https://arcticmonkey07.github.io/react-alarm-clock/" target="_blank" class="link">Link</a>
+        <a href="https://github.com/arcticmonkey07/react-alarm-clock" target="_blank" class="link">GitHub</a>
+      </div>
+    </div>
+  </section>
+  <section class="section fp-auto-height-responsive description--offset" id="section2">
+    <div class="wines"></div>
+    <div class="description__container">
+      <h2 class="description__header">Wines</h2>
+      <h4 class="description__subheader">Самостоятельный проект показывающий изученные возможности React.</h4>
+      <ul class="description__list">
+        <li class="description__item">Загрузка вин с сервера (heroku*). Вывод порциями по 3 шт.</li>
+        <li class="description__item">Пагинация. Клик по вину выводит страницу этого вина.</li>
+        <li class="description__item">Реализован поиск.</li>
+        <li class="description__item">Добавление отзывов о вине.</li>
+        <li class="description__item">Добавление вина в избранные.</li>
+        <li class="description__item">*Сервер делал сам. Сделан на express, mongoose, nodemon. База данных: MongoDB.</li>
+      </ul>
+      <div class="link__wrapper">
+        <a href="https://arcticmonkey07.github.io/wines/" target="_blank" class="link">Link</a>
+        <a href="https://github.com/arcticmonkey07/wines" target="_blank" class="link">GitHub</a>
+      </div>
+    </div>
+  </section>
+  <section class="section fp-auto-height-responsive description--offset" id="section3">
+    <div class="social-network"></div>
+    <div class="description__container">
+      <h2 class="description__header">Social Network</h2>
+      <h4 class="description__subheader">Проект показывающий изученные возможности React.</h4>
+      <ul class="description__list">
+        <li class="description__item">Загрузка пользователей (Друзья) с сервера. Пагинация. Клик на пользователя выводит профиль (Моя страница).</li>
+        <li class="description__item">Добавление сообщения на страницах: Моя страница и Сообщения.</li>
+        <li class="description__item">Изменение статуса в профиле.</li>
+        <li class="description__item">Реализован Логин. Редирект.</li>
+        <li class="description__item">Counter на кнопке Лайк в Профиле.</li>
+      </ul>
+      <div class="test-account__container">
+        <p class="test-account__data">Данные тестового аккаунта:</p>
+        <p class="test-account__data">Email: <span class="test-account__data-text">free@samuraijs.com</span></p>
+        <p class="test-account__data">Password: <span class="test-account__data-text">free</span></p>
+      </div>
+      <div class="link__wrapper">
+        <a href="https://arcticmonkey07.github.io/social-network/" target="_blank" class="link">Link</a>
+        <a href="https://github.com/arcticmonkey07/social-network" target="_blank" class="link">GitHub</a>
+      </div>
+    </div>
+  </section>
+  <section class="section fp-auto-height-responsive description--offset" id="section4">
+    <div class="react"></div>
+    <div class="description__container">
+      <h2 class="description__header">React Quiz</h2>
+      <h4 class="description__subheader">Учебный проект по react.</h4>
+      <ul class="description__list">
+        <li class="description__item">Ответы на тесты, создание тестов.</li>
+        <li class="description__item">Загрузка данных с Firebase, хостинг.</li>
+      </ul>
+      <div class="link__wrapper">
+        <a href="https://react-quiz-66a68.web.app/" target="_blank" class="link">Link</a>
+        <a href="https://github.com/arcticmonkey07/react-quiz" target="_blank" class="link">GitHub</a>
+      </div>
+      <div class="test-account__container">
+        <p class="test-account__data">Данные тестового аккаунта:</p>
+        <p class="test-account__data">Email: <span class="test-account__data-text">wfm@mail.ru</span></p>
+        <p class="test-account__data">Password: <span class="test-account__data-text">123456</span></p>
+      </div>
+    </div>
+  </section>
+  <section class="section fp-auto-height-responsive description--offset" id="section5">
+    <div class="react-graphql"></div>
+    <div class="description__container">
+      <h2 class="description__header">React & GraphQL</h2>
+      <h4 class="description__subheader">Учебный проект по React и GraphQL.</h4>
+      <p class="description__text">База данных по фильмам и режиссерам.</p>
+      <p class="description__about">Описание</p>
+      <p class="description__text">Чтобы запустить проэкт нужно установить все зависимости.
+        Написать npm install в папке server и в папке application.
+        Чтобы запустить нужно написать npm install сначала папке server затем в папке application.</p>
+      <p class="description__text">Возможности:</p>
+        <ul class="description__list">
+          <li class="description__item">Загрузка фильмов и режиссеров с сервера.</li>
+          <li class="description__item">Поиск по фильмам и режиссерам.</li>
+          <li class="description__item">Редактирование, удаление, добавление фильмов и режиссеров.</li>
+        </ul>
+      <div class="link__wrapper">
+        <a href="https://github.com/arcticmonkey07/graphql" target="_blank" class="link">GitHub</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/fullpage.min.js"></script>
+<script type="text/javascript" src="js/mouseover.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
