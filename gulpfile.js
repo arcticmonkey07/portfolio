@@ -59,7 +59,6 @@ var gulp = require('gulp'),
 	fileinclude = require('gulp-file-include'),
 	rigger = require('gulp-rigger'),
 	sourcemaps = require('gulp-sourcemaps'),
-	sass = require('gulp-sass'),
 	autoprefixer = require('gulp-autoprefixer'),
 	cleanCSS = require('gulp-clean-css'),
 	uglify = require('gulp-uglify'),
@@ -74,6 +73,8 @@ var gulp = require('gulp'),
 	iconfontCss = require('gulp-iconfont-css'),
 	runTimestamp = Math.round(Date.now()/1000),
 	fontName = 'ico-font';
+
+var sass = require('gulp-sass')(require('sass'));
 
 
 gulp.task('iconfont', function(){

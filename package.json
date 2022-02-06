@@ -36,6 +36,7 @@
     "imagemin-jpeg-recompress": "^6.0.0",
     "imagemin-pngquant": "^7.0.0",
     "node-sass": "^7.0.1",
+    "sass": "^1.49.7",
     "three": "^0.131.3"
   }
 }
