@@ -1943,6 +1943,15 @@ img {
           filter: blur(5px);
 }
 
+.find-a-coach {
+  width: 100%;
+  height: 100%;
+  background-image: url("./../img/find-a-coach/coach.png");
+  background-size: cover;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
 .spec-fav {
   width: 100%;
   height: 100%;
