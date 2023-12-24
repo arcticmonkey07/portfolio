@@ -1952,6 +1952,15 @@ img {
           filter: blur(5px);
 }
 
+.vue-rifles {
+  width: 100%;
+  height: 100%;
+  background-image: url("./../img/vue-rifles/vue-rifles.png");
+  background-size: cover;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
 .spec-fav {
   width: 100%;
   height: 100%;
